@@ -1,0 +1,19 @@
+
+body {
+  background-color: #FFFEF1;
+}
+
+header {
+  width: 70%;
+  margin: auto;
+}
+
+img {
+  max-height: auto;
+  max-width: auto;
+  margin: auto;
+  border: solid #110326 2px;
+  border-radius: 15px;
+  background-color: #7C1B6F;
+  padding: 15px;
+}

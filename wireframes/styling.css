@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans",
+  sans-serif; 
+  font-size: 20px;
+  color: #444;
+  text-align: center;
+  line-height: 1.5;
+}
+
+nav,
+footer {
+  padding: 1% 0;
+  background-color: #aaa;
+  width: 100%;
+  height: 60px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+header {
+  padding: 12% 0;
+}
+
+p {
+  align-self: center;
+}
+
+section {
+  min-height: 200px;
+  padding: 6% 0;
+  background-color: #bbb;
+}
+
+section:nth-child(even) {
+  background-color: #ddd;
+}
+
+img {
+  width: auto;
+  height: 100%;
+  justify-self: left;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.ticket {
+  border: solid black 2px;
+  border-radius: 15px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.center {
+  float: center;
+}
+
+.interior-header {
+  min-width: 30%;
+  padding: 5% 0;
+  flex: 1;
+}
+
+.questions-list {
+  flex: 3;
+  align-content: center;
+}
+
+.left {
+  float: left;
+  margin-left: 25px;
+}
+
+div {
+  justify-content: center;
+}
+
+.ticket {
+  margin-right: 25%
+}
+
+.right {
+  float: right;
+  margin-right: 15px;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+.bottom-padding {
+  padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 655px) {
+  nav {
+    height: 50px;
+  }
+
+  body {
+    font-size: small;
+  }
+
+  .questions-list {
+    max-width: 60%;
+  }
+
+  .interior-header {
+    margin-top: 20px;
+    min-width: 40%;
+  }
+}

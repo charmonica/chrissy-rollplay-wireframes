@@ -1,1 +1,9 @@
-/* Placeholder */
+/* CSS for the Directory */
+
+header, nav {
+  text-align: center;
+}
+
+a {
+  padding-right:10px;
+}
