@@ -55,7 +55,34 @@ ul {
   list-style-type: none;
 }
 
+.detailed-ticket {
+  /* border: solid black 2px; */
+  /* border-radius: 15px; */
+  margin: auto;
+  max-width: 70%;
+}
+
+.detailed-ticket-view {
+  flex: 3;
+}
+
+.ticket-info {
+  justify-content: space-evenly;
+}
+
 .ticket {
+  border: solid black 2px;
+  border-radius: 15px;
+  margin: auto;
+  max-width: 70%;
+}
+
+.new-comment {
+  margin: auto;
+  min-width: 70%;
+}
+
+.comment {
   border: solid black 2px;
   border-radius: 15px;
   margin: auto;
@@ -88,6 +115,11 @@ ul {
 
 .questions-list {
   flex: 3;
+}
+
+.new-question {
+  flex: 3;
+  padding: 30px;
 }
 
 .left {
@@ -123,6 +155,10 @@ div {
   }
 
   .questions-list {
+    max-width: 60%;
+  }
+
+  .comment-list {
     max-width: 60%;
   }
 

@@ -9,15 +9,45 @@
 <body>
     <nav role="navigation">
       <img src="img/rollplayblack.png" alt="logo" class="left">
+      <button type="button" role="logout" class="logout-button right">Log Out</button>
     </nav>
-    <main role="main">
-        <header role="header">
-            <h1>Detailed Question View</h1>
+    <main role="main" class="flex-column">
+        <header role="header" class="interior-header">
+            <p>EXP: 0/100</p>
+            <h2>Username</h2>
         </header>
-
-        <section>
-            Section 1
-        </section>
+            <section class="detailed-ticket-view">
+                <h1>Ticket Name</h1>
+                <ul>
+                <div class="detailed-ticket">
+                    <div class="ticket-info flex">
+                        <h3 class="username">Username</h3>
+                        <h3 class="rpg">RPG System</h3>
+                    </div>
+                    <p>Description lorem ipsum etc</p>
+                    <button type="button" role="expand" class="expand-ticket">Details</button>
+                </div>
+            </section>
+            <section class="comments">
+                <ul class="comment-list">
+                    <div class="comment">
+                        <h3>Username</h3>
+                        <p>Comment content</p>
+                    </div>
+                    <div class="comment">
+                        <h3>Username</h3>
+                        <p>Comment content</p>
+                    </div>
+                    <div class="comment">
+                        <h3>Username</h3>
+                        <p>Comment content</p>
+                    </div>
+                    <div class="comment">
+                        <h3>Username</h3>
+                        <p>Comment content</p>
+                    </div>
+                </ul>
+            </section>
     </main>
     <footer role="footer">Footer</footer>
 </body>
